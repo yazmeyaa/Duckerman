@@ -1,0 +1,38 @@
+Business Source License 1.1
+
+Licensor: Evgeny Antonenkov (aka future_undefined)
+GitHub: https://github.com/yazmeyaa
+
+Licensed Work: Duckerman — исходный код и связанные материалы, находящиеся в этом репозитории.
+
+Additional Use Grant:
+    You may use, copy, modify, and distribute the Licensed Work, in source or object form, **for non-commercial purposes only**, subject to the terms below.
+
+Change Date: 2029-01-01
+
+Change License: Apache License, Version 2.0
+
+---
+
+## Terms
+
+1. License Grant  
+   The Licensor grants you a non-exclusive, non-transferable, worldwide, royalty-free license to use, reproduce, modify, and distribute the Licensed Work, solely for **non-commercial purposes** and subject to the terms and conditions of this License.
+
+2. Limitations  
+   - You may not use the Licensed Work, or any derivative works, **for any commercial purpose**, including but not limited to: as part of a commercial product, offering it as a service (SaaS), or using it to provide commercial services to third parties.  
+   - You may not sublicense, resell, or otherwise redistribute the Licensed Work for commercial benefit.  
+   - You may not remove or obscure any license notices or attribution requirements.
+
+3. Contributions  
+   Contributions to the Licensed Work are subject to this same license unless the Licensor explicitly agrees otherwise in writing.
+
+4. Change Date and Conversion  
+   On the Change Date, the Licensed Work will automatically become available under the Change License, as defined above, and this License will terminate.
+
+5. Disclaimer  
+   THE LICENSED WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY.
+
+---
+
+For more information, see https://mariadb.com/bsl11

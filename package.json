@@ -1,0 +1,10 @@
+{
+  "name": "duckerman",
+  "version": "0.0.01",
+  "description": "Duck Coint helpfull robot",
+  "main": "dist/index.js",
+  "repository": "https://github.com/yazmeyaa/duckerman",
+  "author": "yazmeyaa[evgeniyantonenkov456@gmail.com]",
+  "license": "BUSL-1.1",
+  "private": false
+}
