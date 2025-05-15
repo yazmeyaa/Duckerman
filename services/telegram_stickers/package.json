@@ -1,0 +1,13 @@
+{
+  "name": "telegram_stickers",
+  "version": "0.0.1",
+  "description": "Telegram stickers service",
+  "main": "dist/index.js",
+  "author": "yazmeyaa[evgenijantonenkov456@gmail.com]",
+  "license": "BSL-1.1",
+  "private": false,
+  "dependencies": {
+    "@duckerman/protos": "0.0.1",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}

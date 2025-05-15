@@ -1,0 +1,22 @@
+syntax = "proto3";
+package telegram_stickers;
+import "google/protobuf/timestamp.proto";
+
+service TelegramStickers {
+    rpc DownloadSticker (DownloadStickerRequest) returns (DownloadStickerResponse);
+    rpc DownloadStickerPack (DownloadStickerPackRequest) returns (DownloadStickerPackResponse);
+}
+
+message DownloadStickerRequest {
+    string sticker_id = 1; 
+}
+
+message DownloadStickerResponse {
+    bytes sticker_data = 1; 
+}
+message DownloadStickerPackRequest {
+    string pack_id = 1;
+}
+message DownloadStickerPackResponse {
+    repeated Sticker stickers = 1;
+}

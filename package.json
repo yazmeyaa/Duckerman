@@ -6,5 +6,9 @@
   "repository": "https://github.com/yazmeyaa/duckerman",
   "author": "yazmeyaa[evgeniyantonenkov456@gmail.com]",
   "license": "BUSL-1.1",
-  "private": false
+  "private": true,
+  "workspaces": [
+    "pkgs/*",
+    "services/*"
+  ]
 }
