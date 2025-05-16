@@ -247,9 +247,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@duckerman/logger@workspace:^, @duckerman/logger@workspace:pkgs/logger":
+"@duckerman/logger@workspace:^, @duckerman/logger@workspace:packages/logger":
   version: 0.0.0-use.local
-  resolution: "@duckerman/logger@workspace:pkgs/logger"
+  resolution: "@duckerman/logger@workspace:packages/logger"
   dependencies:
     "@types/node": "npm:^22.15.18"
     typescript: "npm:^5.8.3"
@@ -257,9 +257,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@duckerman/protos@npm:0.0.1, @duckerman/protos@workspace:^, @duckerman/protos@workspace:pkgs/protos":
+"@duckerman/protos@npm:0.0.1, @duckerman/protos@workspace:^, @duckerman/protos@workspace:packages/protos":
   version: 0.0.0-use.local
-  resolution: "@duckerman/protos@workspace:pkgs/protos"
+  resolution: "@duckerman/protos@workspace:packages/protos"
   dependencies:
     "@bufbuild/protobuf": "npm:^2.4.0"
     "@types/node": "npm:^22.15.18"
@@ -2917,9 +2917,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"telegram_gateway@workspace:gateway/telegram":
+"telegram_gateway@workspace:apps/telegram_gateway":
   version: 0.0.0-use.local
-  resolution: "telegram_gateway@workspace:gateway/telegram"
+  resolution: "telegram_gateway@workspace:apps/telegram_gateway"
   dependencies:
     "@connectrpc/connect": "npm:^2.0.2"
     "@connectrpc/connect-node": "npm:^2.0.2"
@@ -2934,9 +2934,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"telegram_stickers@workspace:services/telegram_stickers":
+"telegram_stickers@workspace:apps/telegram_stickers_service":
   version: 0.0.0-use.local
-  resolution: "telegram_stickers@workspace:services/telegram_stickers"
+  resolution: "telegram_stickers@workspace:apps/telegram_stickers_service"
   dependencies:
     "@duckerman/protos": "npm:0.0.1"
     node-telegram-bot-api: "npm:^0.66.0"

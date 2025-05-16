@@ -8,9 +8,10 @@
   "license": "BUSL-1.1",
   "private": true,
   "workspaces": [
-    "pkgs/*",
+    "packages/*",
     "services/*",
-    "gateway/*"
+    "gateway/*",
+    "apps/*"
   ],
   "packageManager": "yarn@4.9.1",
   "devDependencies": {
@@ -27,6 +28,7 @@
   "scripts": {
     "telegram": "yarn workspace telegram_gateway",
     "protos": "yarn workspace @duckerman/protos",
-    "logger": "yarn workspace @duckerman/logger"
+    "logger": "yarn workspace @duckerman/logger",
+    "build:all": "yarn workspaces foreach --all run build"
   }
 }
