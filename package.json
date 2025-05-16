@@ -29,6 +29,7 @@
     "telegram": "yarn workspace telegram_gateway",
     "protos": "yarn workspace @duckerman/protos",
     "logger": "yarn workspace @duckerman/logger",
+    "grpc:generate": "yarn exec buf generate",
     "build:all": "yarn workspaces foreach --all run build"
   }
 }
