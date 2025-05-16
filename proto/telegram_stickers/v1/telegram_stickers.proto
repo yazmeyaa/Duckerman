@@ -26,6 +26,7 @@ message DownloadStickerResponse {
 }
 message DownloadStickerPackRequest {
     string pack_id = 1;
+    StickerType sticker_type = 2;
 }
 message DownloadStickerPackResponse {
     repeated bytes stickers = 1;
