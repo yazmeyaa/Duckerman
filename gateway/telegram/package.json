@@ -1,0 +1,23 @@
+{
+  "name": "telegram_gateway",
+  "version": "0.0.1",
+  "description": "Duckerman robot telegram gateway",
+  "main": "dist/index.js",
+  "repository": "https://github.com/yazmeyaa/Duckerman/gateway/telegram",
+  "author": "yazmeyaa[evgenijantonenkov456@gmail.com]",
+  "license": "BUSL-1.1",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.8",
+    "typescript": "^5.8.3"
+  }
+}

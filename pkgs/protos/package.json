@@ -4,6 +4,5 @@
   "description": "Generated GRPC client and server stubs",
   "main": "index.js",
   "author": "yazmeyaa[evgenijantonenkov456@gmail.com]",
-  "license": "BSL-1.1",
-  "private": false
+  "license": "BSL-1.1"
 }
