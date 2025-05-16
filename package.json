@@ -14,6 +14,19 @@
   ],
   "packageManager": "yarn@4.9.1",
   "devDependencies": {
+    "@bufbuild/protoc-gen-connect-es": "^0.13.0",
+    "@bufbuild/protoc-gen-es": "^2.4.0",
+    "buf": "^0.1.1",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@bufbuild/buf": "^1.54.0",
+    "@bufbuild/protobuf": "^2.4.0",
+    "@connectrpc/connect": "^2.0.2"
+  },
+  "scripts": {
+    "telegram": "yarn workspace telegram_gateway",
+    "protos": "yarn workspace @duckerman/protos",
+    "logger": "yarn workspace @duckerman/logger"
   }
 }

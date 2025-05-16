@@ -1,0 +1,26 @@
+{
+    "name": "@duckerman/logger",
+    "version": "0.0.1",
+    "description": "Duckerman application logger",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./dist/index.js",
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "author": "yazmeyaa[evgenijantonenkov456@gmail.com]",
+    "license": "BSL-1.1",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "winston": "^3.17.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.15.18",
+        "typescript": "^5.8.3"
+    }
+}

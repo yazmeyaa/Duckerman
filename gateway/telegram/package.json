@@ -9,14 +9,21 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint ./. --ext .ts"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.66.0"
+    "@connectrpc/connect": "^2.0.2",
+    "@connectrpc/connect-node": "^2.0.2",
+    "@duckerman/logger": "workspace:^",
+    "@duckerman/protos": "workspace:^",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@types/node": "^22.15.18",
     "@types/node-telegram-bot-api": "^0.64.8",
     "typescript": "^5.8.3"
   }

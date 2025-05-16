@@ -1,7 +1,7 @@
 syntax = "proto3";
-package telegram_stickers;
+package telegram_stickers.v1;
 
-service TelegramStickers {
+service TelegramStickersService {
     rpc DownloadSticker (DownloadStickerRequest) returns (DownloadStickerResponse);
     rpc DownloadStickerPack (DownloadStickerPackRequest) returns (DownloadStickerPackResponse);
 }

@@ -2,7 +2,25 @@
   "name": "@duckerman/protos",
   "version": "0.0.1",
   "description": "Generated GRPC client and server stubs",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "author": "yazmeyaa[evgenijantonenkov456@gmail.com]",
-  "license": "BSL-1.1"
+  "license": "BSL-1.1",
+  "dependencies": {
+    "@bufbuild/protobuf": "^2.4.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18"
+  }
 }
